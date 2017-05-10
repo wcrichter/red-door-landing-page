@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans');
+
+section {
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+h1, h2 {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2.25em;
+}
+
+.light {
+  color: #f1f1f1;
+}
+
+.hero {
+  background-image: url('../img/red-door-hero-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+.hero-signature {
+  margin-top: 200px;
+  width: 260px;
+}
+
+.hero-heading {
+  font-family: 'Anton', sans-serif;
+  font-size: 5em;
+  padding-bottom: 14px;
+  text-transform: uppercase;
+}
+
+.hero-text {
+  border-top: 4px solid black;
+  color: #darkgray;
+  padding-top: 20px;
+}
+
+.red-door-red {
+  color: red;
+}
+
+.section-speaking {
+  background-color: red;
+}
