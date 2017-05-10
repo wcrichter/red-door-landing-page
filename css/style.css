@@ -15,6 +15,15 @@ p {
   line-height: 2.25em;
 }
 
+.basic-button-light {
+  border: 2px solid white;
+  border-radius: 6px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25em;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
 .light {
   color: #f1f1f1;
 }
@@ -50,4 +59,35 @@ p {
 
 .section-speaking {
   background-color: red;
+}
+
+.section-tools {
+  background-color: red;
+  text-align: center;
+}
+
+.speaking-image-collapse {
+  height: 400px;
+  background-position: -250px -120px;
+}
+
+@media (min-width: 768px) {
+  .speaking-image-collapse {
+    height: 500px;
+    background-position: -60px -60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .speaking-image-collapse {
+    height: 600px;
+    background-position: -200px -60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .speaking-image-collapse {
+    height: 600px;
+    background-position: -160px -60px;
+  }
 }
