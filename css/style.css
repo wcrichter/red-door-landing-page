@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Open+Sans');
 
 section {
-  padding-top: 80px;
-  padding-bottom: 90px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 h1, h2 {
@@ -10,9 +10,20 @@ h1, h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25em;
+  margin-top: 0;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   line-height: 2.25em;
+  margin-top: 30px;
+}
+
+.center {
+  text-align: center;
 }
 
 .basic-button-light {
@@ -29,7 +40,8 @@ p {
 }
 
 .hero {
-  background-image: url('../img/red-door-hero-bg.jpg');
+  /*background-image: url('../img/red-door-hero-bg.jpg');*/
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgb(255, 255, 255) 100%), url('../img/red-door-hero-bg.jpg') no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 100px;
@@ -58,12 +70,47 @@ p {
 }
 
 .section-speaking {
-  background-color: red;
+  background: #000212; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #000212 0%, #be2025 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #000212 0%,#be2025 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #000212 0%,#be2025 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .section-tools {
   background-color: red;
   text-align: center;
+}
+
+.section-form {
+  background: #ed245f; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #ed245f 0%, #be2025 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #ed245f 0%,#be2025 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #ed245f 0%,#be2025 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.section-testimonials {
+  background: #633637; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #633637 0%, #270e14 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #633637 0%,#270e14 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #633637 0%,#270e14 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.quote-box {
+  background-color: #832c2c;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p.quote {
+  line-height: 1.5em;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+.form-box {
+  border: 1px solid white;
+  padding: 40px;
 }
 
 .speaking-image-collapse {
@@ -72,6 +119,10 @@ p {
 }
 
 @media (min-width: 768px) {
+  section {
+    padding-top: 80px;
+    padding-bottom: 90px;
+  }
   .speaking-image-collapse {
     height: 500px;
     background-position: -60px -60px;
