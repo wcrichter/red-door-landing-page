@@ -26,17 +26,42 @@ p {
   text-align: center;
 }
 
-.basic-button-light {
+a.basic-button-red {
+  background-color: #c82329;
+  border-radius: 6px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+a.basic-button-red:hover {
+  color: white;
+  background-color: red;
+  text-decoration: none;
+}
+
+a.basic-button-light {
   border: 2px solid white;
   border-radius: 6px;
+  color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.25em;
-  padding: 10px 20px;
+  padding: 10px 30px;
   text-transform: uppercase;
+}
+
+a.basic-button-light:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .light {
   color: #f1f1f1;
+}
+
+.hero-icon {
+  color: #c82329;
+  padding-right:10px;
 }
 
 .hero {
@@ -45,6 +70,7 @@ p {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top right;
+  padding-top:20px;
   padding-bottom: 100px;
 }
 
@@ -66,7 +92,7 @@ p {
 }
 
 .red-door-red {
-  color: red;
+  color: #c82329;
 }
 
 .section-speaking {
@@ -97,6 +123,14 @@ p {
   background: radial-gradient(ellipse at center, #633637 0%,#270e14 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
+.section-end {
+  background-image: url('../img/MCG-Headshots-web.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding-top:640px;
+}
+
 .quote-box {
   background-color: #832c2c;
   padding: 30px;
@@ -118,6 +152,10 @@ p.quote {
 .speaking-image-collapse {
   height: 400px;
   background-position: -250px -120px;
+}
+
+.book-image-collapse {
+  width: 50%;
 }
 
 .author-image-collapse {
@@ -148,6 +186,9 @@ p.quote {
   .speaking-image-collapse {
     height: 500px;
     background-position: -60px -60px;
+  }
+  .book-image-collapse {
+    width: 100%;
   }
   .author-image-collapse {
     height:640px;
